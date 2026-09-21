@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  z-index: 100;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.contenedor_bloques {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 75%;
+}
+
+.contenedor-izquierdo {
+  display: flex;
+  width: 46%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-derecho {
+  display: flex;
+  width: 47%;
+  height: auto;
+  gap: 45px;
+  padding-bottom: 15px;
+}
+
+.columna-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: white;
+  height: auto;
+  padding: 0%;
+}
+
+.menu-bar {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  position: absolute;
+  justify-content: center;
+  background-color: #0c101b;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  z-index: 10;
+  padding: 30px 70px;
+}
+
+.menu a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#fuente-open {
+  font-family: "Open Sans", sans-serif;
+}
+#fuente-open {
+  font-size: 15px;
+}
+#fuente-poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#fuente-poppins {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* BODY */
+
+.contenedor_principal {
+  background-image: url("img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
