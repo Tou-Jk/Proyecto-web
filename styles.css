@@ -138,3 +138,83 @@
   font-size: 18px;
   border: none;
 }
+
+.btn-main:hover {
+  color: white;
+  background-color: #0f1320;
+  cursor: pointer;
+}
+
+.contenedor-footer {
+  background-color: #0f1320;
+  padding: 40px 0;
+  color: white;
+  width: 100%;
+}
+
+.contenedor-general {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#textoh4 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  padding: 50px 0;
+}
+
+.contenedor-izquierdo-footer hr {
+  border: none;
+  border-top: 1px solid #d4a373;
+  margin-bottom: 30px;
+}
+
+.contenedor-direcciones {
+  display: flex;
+  gap: 50px;
+}
+
+.contenedor-direcciones > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contenedor-direcciones .izquierda p,
+.contenedor-direcciones .izquierda i {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-style: normal;
+}
+
+.contenedor-direcciones .medio p {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.contenedor-direcciones .medio i {
+  font-style: normal;
+}
+
+.contenedor-direcciones .derecha div {
+  display: flex;
+  gap: 5px;
+}
+
+.contenedor-derecho-footer {
+  display: grid;
+  flex-direction: column;
+}
+
+.contenedor-derecho-footer p {
+  font-size: 15px;
+  margin: 2px 0;
+}
