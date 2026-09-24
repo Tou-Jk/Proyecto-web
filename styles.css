@@ -147,16 +147,60 @@
 
 .contenedor-contenido {
   display: flex;
-  height: 80vh;
+  height: 95vh;
   width: 100%;
   background-color: #efefef;
   justify-content: center;
 }
 
 .contenedor-centro {
-  background-color: blue;
   width: 80vw;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.arriba {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.medioizquierda {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1;
+}
+.medioderecha {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+}
+.medio {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: end;
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.abajo {
+  width: 100%;
+
+  flex: 1;
 }
 
 .contenedor-footer {
