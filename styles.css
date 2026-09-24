@@ -7,7 +7,7 @@
 
 .header {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 15vh;
   position: absolute;
   z-index: 100;
@@ -143,6 +143,20 @@
   color: white;
   background-color: #0f1320;
   cursor: pointer;
+}
+
+.contenedor-contenido {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background-color: #efefef;
+  justify-content: center;
+}
+
+.contenedor-centro {
+  background-color: blue;
+  width: 80vw;
+  height: 100%;
 }
 
 .contenedor-footer {
