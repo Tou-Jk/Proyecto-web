@@ -186,6 +186,20 @@
   text-align: left;
   font-family: "Nunito", sans-serif;
 }
+
+#texto-negrita {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#texto-negrita-bajo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 23px;
+}
+
 .medio {
   width: 100%;
   display: flex;
