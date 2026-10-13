@@ -1,135 +1,144 @@
-<main>
-  <div
-    class="container"
-    style="
-      min-height: 50vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 160px 20px 80px;
-      background: linear-gradient(180deg, #f5f5f5 0%, #ffffff 100%);
-    "
-  >
-    <div
-      style="
-        max-width: 760px;
-        width: 100%;
-        background: #fff;
-        border: 1px solid #e6e6e6;
-        border-radius: 18px;
-        box-shadow: 0 20px 40px rgba(8, 17, 48, 0.08);
-        padding: 40px 30px;
-      "
-    >
-      <p
-        style="
-          text-transform: uppercase;
-          letter-spacing: 0.12em;
-          color: #f8ad00;
-          font-weight: 700;
-          font-size: 12px;
-          margin-bottom: 16px;
-        "
-      >
-        Contáctanos
+<div class="contact-page">
+  <section class="contact-banner" aria-label="Servicios eléctricos profesionales"></section>
+
+  <section class="contact-intro contenedor" aria-labelledby="contact-title">
+    <div class="contact-intro__title">
+      <h1 id="contact-title">¡HABLEMOS!</h1>
+      <p>
+        Envíanos un correo electrónico o inicia una conversación completando
+        el formulario a continuación.
       </p>
-      <h1
-        style="
-          font-size: clamp(2rem, 5vw, 3rem);
-          color: #081130;
-          margin-bottom: 16px;
-        "
+    </div>
+
+    <div class="contact-info" aria-label="Información de contacto">
+      <a class="contact-info__item" href="mailto:proyectos@proyelectric.com">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <span>
+          <strong>proyectos@proyelectric.com</strong>
+          <small>f.vasquez@proyelectric.com</small>
+        </span>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
+      <a class="contact-info__item" href="tel:+51969642359">
+        <i class="fa-solid fa-phone-volume" aria-hidden="true"></i>
+        <span>
+          <strong>Proyectos: 969 642 359</strong>
+          <small>Ventas: 923 236 004</small>
+        </span>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
+      <a
+        class="contact-info__item"
+        href="https://maps.google.com/?q=Mz+J1+Lote+10+Derrama+Magisterial+Chiclayo"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Hablemos de tu proyecto
-      </h1>
-      <p
-        style="
-          font-size: 1.05rem;
-          color: #2a2a2a;
-          margin-bottom: 26px;
-          line-height: 1.7;
-        "
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>
+          <strong>Oficina: Mz. J1 Lote 10 Derrama Magisterial - Chiclayo</strong>
+        </span>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
+      <a
+        class="contact-info__item"
+        href="https://maps.google.com/?q=Mz+Q+Lote+9+Chosica+Del+Norte+La+Victoria+Chiclayo"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Somos especialistas en soluciones eléctricas para proyectos
-        residenciales, industriales y comerciales. Envíanos tus datos y te
-        responderemos a la brevedad.
+        <i class="fa-solid fa-warehouse" aria-hidden="true"></i>
+        <span>
+          <strong>Almacén: Mz. Q Lote 9 Chosica del Norte</strong>
+          <small>La Victoria (frente al local El Paisa)</small>
+        </span>
+        <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+
+  <section class="contact-form-section contenedor" aria-labelledby="contact-form-title">
+    <div class="contact-form-panel">
+      <h2 id="contact-form-title">PONTE EN CONTACTO<br />CON NOSOTROS</h2>
+      <p class="contact-form-panel__intro">
+        Cuéntanos sobre tu proyecto, obtén un presupuesto rápido, para hacerlo
+        realidad.
       </p>
-      <form style="display: grid; gap: 18px">
-        <div
-          style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-          "
-        >
-          <input
-            type="text"
-            placeholder="Nombres y apellidos"
-            style="
-              padding: 14px 16px;
-              border: 1px solid #d9d9d9;
-              border-radius: 12px;
-              font: inherit;
-            "
-          />
-          <input
-            type="email"
-            placeholder="Correo electrónico"
-            style="
-              padding: 14px 16px;
-              border: 1px solid #d9d9d9;
-              border-radius: 12px;
-              font: inherit;
-            "
-          />
+
+      <form
+        class="contact-form"
+        action="mailto:proyectos@proyelectric.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <div class="contact-form__row">
+          <div class="contact-field">
+            <label for="contact-name">Nombre completo</label>
+            <input
+              id="contact-name"
+              name="Nombre completo"
+              type="text"
+              autocomplete="name"
+              required
+            />
+          </div>
+          <div class="contact-field">
+            <label for="contact-email">Correo</label>
+            <input
+              id="contact-email"
+              name="Correo"
+              type="email"
+              autocomplete="email"
+              required
+            />
+          </div>
+          <div class="contact-field">
+            <label for="contact-phone">Teléfono</label>
+            <input
+              id="contact-phone"
+              name="Teléfono"
+              type="tel"
+              autocomplete="tel"
+              required
+            />
+          </div>
+          <div class="contact-field">
+            <label for="contact-city">Ciudad</label>
+            <input
+              id="contact-city"
+              name="Ciudad"
+              type="text"
+              autocomplete="address-level2"
+              required
+            />
+          </div>
         </div>
-        <div
-          style="
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 16px;
-          "
-        >
-          <input
-            type="tel"
-            placeholder="Teléfono"
-            style="
-              padding: 14px 16px;
-              border: 1px solid #d9d9d9;
-              border-radius: 12px;
-              font: inherit;
-            "
-          />
-          <input
-            type="text"
-            placeholder="Empresa o proyecto"
-            style="
-              padding: 14px 16px;
-              border: 1px solid #d9d9d9;
-              border-radius: 12px;
-              font: inherit;
-            "
-          />
+        <div class="contact-field contact-field--message">
+          <label for="contact-message">Mensaje:</label>
+          <textarea
+            id="contact-message"
+            name="Mensaje"
+            rows="3"
+            required
+          ></textarea>
         </div>
-        <textarea
-          rows="5"
-          placeholder="Mensaje"
-          style="
-            padding: 14px 16px;
-            border: 1px solid #d9d9d9;
-            border-radius: 12px;
-            resize: vertical;
-            font: inherit;
-          "
-        ></textarea>
-        <button
-          type="submit"
-          class="boton"
-          style="border: none; cursor: pointer"
-        >
-          Enviar mensaje
-        </button>
+        <button class="contact-submit" type="submit">Enviar mensaje</button>
       </form>
     </div>
-  </div>
-</main>
+    <div class="contact-form-image">
+      <img
+        src="/img/fotocarruselcontacto.png"
+        alt="Técnicos de Proyelectric trabajando en un tablero eléctrico"
+        loading="lazy"
+      />
+    </div>
+  </section>
+
+  <a
+    class="fab-wsp"
+    href="https://wa.me/51969642359"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Escríbenos por WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+</div>
