@@ -664,18 +664,6 @@ ul {
   margin: 0 auto -23px;
 }
 
-/* Píldora de WhatsApp */
-.wsp-pill {
-  margin-top: 96px;
-  margin-bottom: 24px;
-  text-align: center;
-}
-.wsp-pill img {
-  display: block;
-  width: 358px;
-  margin: 0 auto;
-}
-
 /* Títulos de sección (marcas y clientes) */
 .titulo-seccion {
   font-family: "Poppins", sans-serif;
@@ -688,6 +676,18 @@ ul {
 .callout2 .titulo-seccion {
   font-weight: 500;
   padding: 24px 0;
+}
+
+/* Píldora de WhatsApp */
+.wsp-pill {
+  margin-top: 96px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.wsp-pill img {
+  display: block;
+  width: 358px;
+  margin: 0 auto;
 }
 
 .swiper-marca .swiper-wrapper {
@@ -822,7 +822,6 @@ ul {
   line-height: 33px;
   color: #081130;
 }
-
 /* ================= CALLOUT 4 (clientes) ================= */
 .callout4 {
   background: #fff;
