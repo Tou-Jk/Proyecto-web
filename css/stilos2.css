@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headr1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  width: 233px;
+  max-width: 233px;
+  margin: 29px 0 15px;
+}
+.header-info {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 24px;
+  height: 31px;
+}
+.info-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.info-item > span {
+  font-size: 20px;
+  color: #f8ad00;
+}
+.header-info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1;
+  color: #fff;
+  white-space: nowrap;
+}
+.header-info p.tel {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.header-info .redes a {
+  display: block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 100%;
+  color: #333;
+}
+.header-info .redes a:hover {
+  background: #f8ad00;
+}
+
+/* Menú tipo píldora */
+.header {
+  transition: all 1s ease;
+}
+.header.flota {
+  margin-top: -95px;
+}
+.menu {
+  width: 1206px;
+  margin-left: -3px;
+  height: 71px;
+  background: #081130;
+  border-radius: 40px;
+  transition: all 0.5s ease;
+}
+.header.flota .menu {
+  height: 45px;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+.menu a {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 71px;
+  color: #fff;
+  padding: 0 18px;
+  white-space: nowrap;
+  transition: all 0.5s ease;
+}
+.header.flota .menu a {
+  line-height: 45px;
+}
+.menu a i {
+  font-size: inherit;
+  margin-left: 0;
+}
+.menu a:hover {
+  color: #f8ad00;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ac6161;
+}
